@@ -23,7 +23,9 @@ function getModalStyle() {
 const useStyles = makeStyles((theme) => ({
     paper: {
         position: 'absolute',
-        width: 400,
+        flexGrow: 1,
+        display: 'flex',
+        flexDirection: 'column',
         backgroundColor: theme.palette.background.paper,
         border: '2px solid #000',
         boxShadow: theme.shadows[5],
@@ -83,11 +85,11 @@ function DonateButton() {
                 Ashok Singh
 
             </Typography>
-            <Typography className={classes.con} variant="h6" id="simple-modal-description">
+            <Typography className={classes.con} variant="p" id="simple-modal-description">
                 Phone:+91 8979972870
 
             </Typography>
-            <Typography className={classes.con} variant="h6" id="simple-modal-description">  <a href="mailto:matavidiyasewafoundation@gmail.com"> matavidiyasewafoundation@gmail.com</a>    </Typography>
+            <Typography className={classes.con} variant="p" id="simple-modal-description">  <a href="mailto:matavidiyasewafoundation@gmail.com"> matavidiyasewafoundation@gmail.com</a>    </Typography>
             <a onClick={toFacebook}>  <FacebookIcon /> </a>  <a onClick={toInsta}>  <InstagramIcon /> </a>
 
         </div>
@@ -103,6 +105,7 @@ function DonateButton() {
                 onClose={handleClose}
                 aria-labelledby="simple-modal-title"
                 aria-describedby="simple-modal-description"
+                className={classes.modelApp}
             >
                 {body}
             </Modal>
