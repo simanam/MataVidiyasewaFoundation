@@ -19,7 +19,7 @@ const HeroSection = () => {
 
     const open = Boolean(anchorEl);
     const handleHouseClick = () => {
-        window.open("https://www.google.com/maps/place/Kalyanpur,+Vikasnagar,+Uttarakhand+248198,+India/@30.4653047,77.7601186,16z/data=!4m5!3m4!1s0x390f2f99c622036b:0xa12f8e6642fa399d!8m2!3d30.4649665!4d77.7638042")
+        window.open("https://www.google.com/maps/place/30%C2%B027'49.3%22N+77%C2%B045'35.6%22E/@30.463698,77.759895,17z/data=!3m1!4b1!4m5!3m4!1s0x0:0x0!8m2!3d30.463698!4d77.759895")
     }
 
     return (

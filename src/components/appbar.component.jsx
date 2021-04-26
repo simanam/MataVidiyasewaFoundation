@@ -99,7 +99,7 @@ const TopNav = (props) => {
                                 smooth={true}
                                 offset={-70}
                                 duration={500}>   <MenuItem onClick={() => handleMenuClick('/')}>Contact</MenuItem></Link>
-                            <MenuItem onClick={() => handleMenuClick('/workPage')}>Donate</MenuItem>
+                            <MenuItem ><DonateButton /></MenuItem>
                         </Menu></>) : (<Box className={classes.navButtonBox}>
                             <Link activeClass={classes.activeClass}
                                 to="hero"
@@ -165,7 +165,7 @@ const TopNav = (props) => {
                             </Menu></>) : (<Box className={classes.navButtonBox}>
                                 <Button className={classes.navButton} onClick={() => handleMenuClick('/')}>HOME</Button>
 
-                                <Button className={classes.donateutton} onClick={() => handleMenuClick('/workPage')}>DONATE</Button>
+                                <Button ><DonateButton /></Button>
 
                             </Box>)}
 
