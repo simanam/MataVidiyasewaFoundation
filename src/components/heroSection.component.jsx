@@ -19,7 +19,7 @@ const HeroSection = () => {
 
     const open = Boolean(anchorEl);
     const handleHouseClick = () => {
-        window.open("https://www.google.com/maps/place/30%C2%B027'49.3%22N+77%C2%B045'35.6%22E/@30.463698,77.759895,17z/data=!3m1!4b1!4m5!3m4!1s0x0:0x0!8m2!3d30.463698!4d77.759895")
+        window.open("https://www.google.com/maps/place/30%C2%B027'50.8%22N+77%C2%B045'36.8%22E/@30.4640712,77.7602468,325m/data=!3m1!1e3!4m5!3m4!1s0x0:0x0!8m2!3d30.4641101!4d77.7602189")
     }
 
     return (
